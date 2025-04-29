@@ -1,0 +1,8 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleMauiApp.Views.SplashPage"
+             Title="Welcome">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Splash Screen" FontSize="32" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Core.EventBus", "src\EventDriven.Core\EventBus\EventDriven.Core.EventBus.csproj", "{542CA6AF-F67C-676D-9D3D-81689CE20634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApp", "samples\SampleConsoleApp\SampleConsoleApp.csproj", "{F878D1D4-8CC0-0F19-F6E9-F0F7824F0B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Console", "src\EventDriven.Console\EventDriven.Console.csproj", "{D883422F-7F54-4918-BEDD-4039FBB76D61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{41133361-0B1F-4820-9859-CAA765034CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMauiApp", "samples\SampleMauiApp\SampleMauiApp.csproj", "{216FCA0C-4752-D86A-A12C-7474D574729F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWinUIApp", "samples\SampleWinUIApp\SampleWinUIApp.csproj", "{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E651048A-CD24-4487-A62A-A5981416C261}"
+	ProjectSection(SolutionItems) = preProject
+		src\EventDriven.Console\Docs\DemoRunnerUsage.md = src\EventDriven.Console\Docs\DemoRunnerUsage.md
+		src\EventDriven.Console\Docs\EventConsoleUsage.md = src\EventDriven.Console\Docs\EventConsoleUsage.md
+		src\EventDriven.Console\Docs\EventFlowDiagram.md = src\EventDriven.Console\Docs\EventFlowDiagram.md
+		src\EventDriven.Console\Docs\EventSimulatorUsage.md = src\EventDriven.Console\Docs\EventSimulatorUsage.md
+		src\EventDriven.Console\Docs\ExampleScenario.md = src\EventDriven.Console\Docs\ExampleScenario.md
+		src\EventDriven.Console\Docs\FromMVVMtoEVC.md = src\EventDriven.Console\Docs\FromMVVMtoEVC.md
+		src\EventDriven.Console\Docs\FullArchitectureDiagram.md = src\EventDriven.Console\Docs\FullArchitectureDiagram.md
+		src\EventDriven.Console\Docs\Philosophy.md = src\EventDriven.Console\Docs\Philosophy.md
+		src\EventDriven.Console\README.md = src\EventDriven.Console\README.md
+		src\EventDriven.Console\Docs\Roadmap.md = src\EventDriven.Console\Docs\Roadmap.md
+		src\EventDriven.Console\Docs\Testing.md = src\EventDriven.Console\Docs\Testing.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A8FCA69E-F3F3-4D99-9F37-EF291DA24110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Core.Tests", "tests\EventDriven.Core.Tests\EventDriven.Core.Tests.csproj", "{25C152A0-4D93-46D6-BB2F-4E036B8D802B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542CA6AF-F67C-676D-9D3D-81689CE20634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542CA6AF-F67C-676D-9D3D-81689CE20634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542CA6AF-F67C-676D-9D3D-81689CE20634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542CA6AF-F67C-676D-9D3D-81689CE20634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F878D1D4-8CC0-0F19-F6E9-F0F7824F0B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F878D1D4-8CC0-0F19-F6E9-F0F7824F0B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F878D1D4-8CC0-0F19-F6E9-F0F7824F0B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F878D1D4-8CC0-0F19-F6E9-F0F7824F0B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D883422F-7F54-4918-BEDD-4039FBB76D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D883422F-7F54-4918-BEDD-4039FBB76D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D883422F-7F54-4918-BEDD-4039FBB76D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D883422F-7F54-4918-BEDD-4039FBB76D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216FCA0C-4752-D86A-A12C-7474D574729F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216FCA0C-4752-D86A-A12C-7474D574729F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216FCA0C-4752-D86A-A12C-7474D574729F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{216FCA0C-4752-D86A-A12C-7474D574729F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216FCA0C-4752-D86A-A12C-7474D574729F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216FCA0C-4752-D86A-A12C-7474D574729F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}.Debug|Any CPU.Build.0 = Debug|x64
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}.Release|Any CPU.ActiveCfg = Release|x64
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}.Release|Any CPU.Build.0 = Release|x64
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9}.Release|Any CPU.Deploy.0 = Release|x64
+		{25C152A0-4D93-46D6-BB2F-4E036B8D802B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C152A0-4D93-46D6-BB2F-4E036B8D802B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C152A0-4D93-46D6-BB2F-4E036B8D802B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C152A0-4D93-46D6-BB2F-4E036B8D802B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{542CA6AF-F67C-676D-9D3D-81689CE20634} = {41133361-0B1F-4820-9859-CAA765034CE2}
+		{F878D1D4-8CC0-0F19-F6E9-F0F7824F0B89} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{216FCA0C-4752-D86A-A12C-7474D574729F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C51DAF0A-8563-BDE7-87B6-C01EAFD03BD9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{25C152A0-4D93-46D6-BB2F-4E036B8D802B} = {A8FCA69E-F3F3-4D99-9F37-EF291DA24110}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1F814DC-0137-4762-91AC-EE8F98F5D7D0}
+	EndGlobalSection
+EndGlobal

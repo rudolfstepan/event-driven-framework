@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EventDrivenApp\**" />
+    <EmbeddedResource Remove="EventDrivenApp\**" />
+    <None Remove="EventDrivenApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EventDriven.Console\EventDriven.Console.csproj" />
+    <ProjectReference Include="..\..\src\EventDriven.Core\EventBus\EventDriven.Core.EventBus.csproj" />
+  </ItemGroup>
+
+</Project>
